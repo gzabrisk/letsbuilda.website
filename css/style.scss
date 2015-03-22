@@ -4,6 +4,39 @@
 @import "reset";
 
 body {
-	background: navy;
-	color: white;
+	font-family: 'Merriweather', 'Georgia', serif;
 }
+
+.center {
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Merriweather Sans', 'Helvetica', 'Arial', sans-serif;
+	font-weight: 600;
+	font-size: 1.25em;
+	margin: 0 0 1em;
+}
+
+p, ul {
+	line-height: 1.4em;
+	margin: 0 0 1em;
+}
+
+section {
+	border-bottom: 1px solid hsl(0, 0%, 80%);
+	margin: 0 0 2em;
+	padding: 0 1em 2em;
+}
+
+header {
+	background: #45608e;
+	padding: 1em;
+	margin: 0 0 2em;
+}
+
+* > :last-child {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
